@@ -7,7 +7,7 @@ function AddItemForm({ onAddItem }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newItem = {
-      id: Date.now(), // Gerar um ID único
+      id: Date.now(),
       name,
       description,
       interacted: false,
