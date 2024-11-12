@@ -1,0 +1,59 @@
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.messages-container {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.new-message-container {
+  display: flex;
+  gap: 10px;
+}
+
+.new-message-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-message-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-message-container button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.reactions button {
+  margin-right: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.reactions button:hover {
+  text-decoration: underline;
+}
